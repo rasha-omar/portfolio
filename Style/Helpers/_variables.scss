@@ -1,0 +1,122 @@
+// $crimson : crimson;
+// $rose : rgb(249, 155, 171);
+// $black :#0d0d0d;
+// $light-bg:#1a1a1a;
+// $white:#fff;
+// $light-color:#aaa;
+// $box-shadow:0 .5rem 1rem rgba(0, 0, 0, .7);
+
+// html {
+//     font-size: 62.5%;
+//     overflow: hidden;
+
+//     &::-webkit-scrollbar {
+//         width: 1rem;
+//     }
+
+//     &::-webkit-scrollbar-track {
+//         background: $black;
+//     }
+
+//     &::-webkit-scrollbar-thumb {
+//         background-color: $rose;
+//         border-radius: 5rem;
+//     }
+// }
+
+
+
+// body {
+//     background-color: $black;
+//     padding-bottom: 6.5rem;
+// }
+// // section{
+// //     padding: 3rem 2rem;
+// // }
+
+// // .home{
+// //     display: flex;
+// //     align-items: center;
+// //     flex-wrap: wrap;
+// //     gap: 4rem;
+// //     min-height: calc(100vh - 6.5rem);
+// // }
+
+// // .image{
+// //     flex:1 1 42rem;
+
+// //     img{
+// //         height: 50rem;
+// //         width: 50rem;
+// //         border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+// //     }
+// // }
+
+// // .content{
+// //     flex:1 1 42rem;
+
+// //     h3 {
+// //         color: $white;
+// //         font-size: 4rem;
+// //         padding-bottom: .5rem;
+
+// //     }
+// .navbar {
+//     position: fixed;
+//     bottom: 0;
+//     left: 0;
+//     right: 0;
+//     display: flex;
+//     z-index: 1000;
+//     align-items: flex-end;
+// }
+
+// a {
+//     padding: 2rem;
+//     font-size: 2rem;
+//     background: $light-bg;
+//     flex: 1;
+//     color: $white;
+//     text-align:end;
+//     transition: .2s linear;
+
+//     i {
+//         color: $rose;
+//         padding-right: .5rem;
+//     }
+
+//     &:hover {
+//         background: $rose;
+//         padding-bottom: 6rem;
+
+//         i {
+//             color: $white;
+//         }
+//     }
+// }
+
+// @media (max-width:1200px) {
+
+//     html {
+//         font-size: 55%;
+//     }
+// }
+
+// @media (max-width:768px) {
+//     .navbar {
+
+//         a {
+//             i {
+//                 padding: 0;
+//             }
+
+//             span {
+//                 display: none;
+//             }
+
+//             &:hover {
+//                 padding-bottom: 2rem;
+//             }
+//         }
+//     }
+// }
